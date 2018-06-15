@@ -1,0 +1,25 @@
+include 'BaijiCommonTypes.bjsc'
+namespace java 'response'
+   
+class UserDto{
+     int userId;
+    string userName;
+   string password;
+  int age;
+  string sex;
+  datetime createTime;
+  string modifyUser;
+  datetime datachangeLasttime;
+  int roleId;
+  string roleName;
+}
+
+class UserListResponseType{
+    list<UserDto> list ;
+    BaijiCommonTypes.ResponseStatusType responseStatus;
+}
+
+
+
+
+

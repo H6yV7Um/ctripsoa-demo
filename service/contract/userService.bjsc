@@ -1,0 +1,9 @@
+include 'BaijiCommonTypes.bjsc'
+namespace java 'servcie'
+   
+class UserListResponseType{
+    list<UserDto> list ;
+    BaijiCommonTypes.ResponseStatusType responseStatus;
+}
+
+
